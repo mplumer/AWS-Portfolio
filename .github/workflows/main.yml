@@ -5,16 +5,13 @@ on:
   pull_request:
     branches: [ develop ]
 jobs:
-  prebuild: 
-    - name: Clean
-      run: Gatsby Clean
   build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - name: Build Website
       run: |
-        yarn
+        npm run clean
         npm run build
     - name: Configure AWS credentials
       if: github.event_name == 'push'
