@@ -23,7 +23,7 @@ const ProjectDetails = ({data}) => {
                                                 </div>
                                                 <h3 className="mt--20">Details</h3>
                                                 <ul className="list_holder">
-                                                    <li><span className="icon"><FiList />Highlighted Skills:</span><span className="projectinfo">{projectData.category}</span></li>
+                                                    <li><span className="icon"><FiList />Category:</span><span className="projectinfo">{projectData.category}</span></li>
                                                 </ul>
                                                 <p className="mt--20">{projectData.body}</p>
                                             </div>

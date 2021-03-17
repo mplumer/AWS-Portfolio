@@ -1,6 +1,6 @@
 import React from 'react';
 import { graphql } from "gatsby";
-import Post from "../components/post";
+//import Post from "../components/post";
 import Layout from "../components/layout";
 
 const Archive = ({data , pageContext}) => {
@@ -25,7 +25,12 @@ const Archive = ({data , pageContext}) => {
                         </div>
                     </div>
                     <div className="row row--25">
-                        
+                        {authorblogs.map(blog => (
+                            <div className="col-lg-4 col-md-6 col-12" key={blog.node.fields.slug}>
+                               
+                            </div>  
+                            
+                        ))}
                     </div>
                 </div>
             </div>
@@ -34,5 +39,43 @@ const Archive = ({data , pageContext}) => {
 }
 
 
-
+// export const allauthorQueryData = graphql`
+//     query allauthorQuery($author: String!){
+//         allMarkdownRemark (
+//             sort: {fields: frontmatter___date, order: DESC}
+//             filter: {fields: {authorId: {eq: $author}}}
+//         ){
+//         totalCount
+//         edges {
+//             node {
+//             id
+//             fields {
+//                 slug
+//                 authorId
+//             }
+//             excerpt
+//             frontmatter {
+//                 author {
+//                     name
+//                 }
+//                 title
+//                 tags
+//                 format
+//                 date(formatString: "MMM Do, YYYY")
+//                 category
+//                 image {
+//                     childImageSharp {
+//                         fluid(maxHeight: 300, maxWidth: 500, quality: 100, srcSetBreakpoints: 6) {
+//                             ...GatsbyImageSharpFluid_withWebp
+//                             presentationWidth
+//                             presentationHeight
+//                         }
+//                     }
+//                 }
+//             }
+//             }
+//         }
+//         }
+//     }
+// `
 export default Archive;

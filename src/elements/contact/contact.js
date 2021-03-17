@@ -15,7 +15,6 @@ const Contact = () => {
                     getform_url
                 }
             }
-
         }
     `);
     const Title = contactData.homedefaultJson.title;
@@ -35,14 +34,14 @@ const Contact = () => {
                 </div>
 
                 <div className="row row--45">
-                     {/* Start Contact Form   */}
+                    {/* Start Contact Form  */}
                     <div className="col-lg-6 col-12 mt--70 mt_md--30 mt_sm--40 wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1000ms">
                         <div className="info">
                             <p>Please fill out the form on this section to leave a message. Or call me anytime to get in touch immediately.</p>
                         </div>
                         <Contactform url={getform_url} />
                     </div>
-                     {/* End Contact Form   */}
+                    {/* End Contact Form  */}
 
                     <div className="col-lg-6 col-12 mt--70 mt_md--30 mt_sm--40 wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1000ms">
                         <div className="contact-info-list-wrapper">
