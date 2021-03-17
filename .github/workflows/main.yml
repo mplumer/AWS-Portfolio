@@ -5,6 +5,9 @@ on:
   pull_request:
     branches: [ develop ]
 jobs:
+  prebuild: 
+    - name: Clean
+      run: Gatsby Clean
   build:
     runs-on: ubuntu-latest
     steps:
