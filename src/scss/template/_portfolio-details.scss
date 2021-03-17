@@ -1,0 +1,96 @@
+/*-------------------------
+Portfolio Details  
+-------------------------*/
+
+
+.rn-project-details-area {
+    @media #{$md-layout} {
+        padding-top: 120px;
+    }
+    @media #{$sm-layout} {
+        padding-top: 120px;
+    }
+    .gatsby-image-wrapper {
+        max-width: 100% !important;
+        transition: 0.5s all !important;
+        img {
+            transition: 0.5s all !important;
+        }
+        &:hover {
+            img {
+                transform: scale(1.2);
+            }
+        }
+    }
+    
+    .portfolio-content {
+        .content-left {
+            h3 {
+                font-weight: 700;
+                line-height: 1.4;
+                font-size: 23px;
+                margin-bottom: 20px;
+            }
+            ul {
+                &.list_holder {
+                    @extend %liststyle;
+                    li {
+                        span {
+                            &.icon {
+                                color: #000;
+                                font-weight: 500;
+                                min-width: 152px;
+                                display: inline-block;
+                                svg {
+                                    width: 20px;
+                                    height: 20px;
+                                    color: var(--color-primary);
+                                    margin-right: 10px;
+                                }
+                            }
+                            &.projectinfo {
+                                color: #6f6f6f;
+                                display: inline-block;
+                                line-height: 2;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .inner {
+        .content-left {
+            padding: 0 210px;
+            @media #{$lg-layout} {
+                padding: 0 100px;
+            }
+            @media #{$md-layout} {
+                padding: 0 50px;
+            }
+            @media #{$sm-layout} {
+                padding: 0 30px;
+            }
+            @media #{$large-mobile} {
+                padding: 0;
+            }
+        }
+    }
+    .thumbnail  {
+        overflow: hidden;
+        border-radius: 10px !important;
+        img {
+            border-radius: 10px !important;
+        }
+    }
+    .single-image  {
+        overflow: hidden;
+        border-radius: 10px !important;
+        img {
+            border-radius: 10px !important;
+        }
+    }
+
+}
+

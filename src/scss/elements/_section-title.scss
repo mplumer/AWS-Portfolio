@@ -1,0 +1,45 @@
+/*----------------
+ * Section Title
+--------------------*/
+
+.section-title {
+    .title {
+        text-transform: uppercase;
+        font-weight: 900;
+        font-size: 35px;
+        position: relative;
+        line-height: 1.4;
+        letter-spacing: .8px;
+        span {
+            &.bg {
+                position: absolute;
+                left: 0;
+                top: 0;
+                color: transparent;
+                font-size: 150px;
+                font-weight: 900;
+                opacity: .1;
+                line-height: 0;
+                -webkit-text-stroke: 1px #000;
+                -webkit-user-select: none;
+                @media #{$lg-layout} {
+                    font-size: 90px;
+                }
+                @media #{$md-layout} {
+                    font-size: 70px;
+                }
+                @media #{$sm-layout} {
+                    font-size: 70px;
+                }
+                @media #{$large-mobile} {
+                    font-size: 40px;
+                }
+            }
+        }
+    }
+    .description {
+        margin: 0;
+        letter-spacing: 0px;
+    }
+}
+

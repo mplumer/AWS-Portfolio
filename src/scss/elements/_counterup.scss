@@ -1,0 +1,82 @@
+/*------------------------
+    Counterup Styles  
+--------------------------*/
+
+
+
+.left-content {
+    .title {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 1.4em;
+        letter-spacing: 0px;
+        max-width: 400px;
+        margin-right: 50px;
+        margin-bottom: 0;
+    }
+}
+
+.right-content {
+    margin-left: 85px;
+    @media #{$lg-layout} {
+        margin-left: 0;
+    }
+    @media #{$md-layout} {
+        margin-left: 0;
+    }
+    @media #{$sm-layout} {
+        margin-left: 0;
+    }
+    .description {
+        padding-left: 35px;
+        border-left: 4px solid var(--color-primary);
+        letter-spacing: 0px;
+        margin-bottom: 0;
+    }
+}
+
+/*-----------------------
+ Counter Style One  
+------------------------*/
+.counterup-style-1 {
+    .counter-box {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -10px;
+        @extend %liststyle;
+        li {
+            margin: 0 10px;
+            background: var(--color-extra01);
+            line-height: 1.6;
+            padding: 10px 22px;
+            border-radius: 3px;
+            margin-top: 20px;
+            .description {
+                margin-right: 40px;
+                position: relative;
+                font-weight: 500;
+                display: inline-block;
+                color: var(--color-heading);
+                &::after {
+                    content: '';
+                    width: 20px;
+                    height: 1px;
+                    background-color: var(--color-primary);
+                    position: absolute;
+                    top: 50%;
+                    left: 100%;
+                    margin-left: 10px;
+                    margin-top: -1px;
+                }
+                span {
+                    
+                }
+            }
+            .counter {
+                display: inline-block;
+            }
+        }
+    }
+}
+
+

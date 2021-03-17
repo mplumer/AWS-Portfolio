@@ -1,0 +1,23 @@
+{
+    "id": "project-04",
+    "title": "Notable",
+    "category": "Express, JavaScript, HTML, CSS",
+    "year": "2020",
+    "featured_image": "./images/project-04.jpg",
+    "is_featured": true,
+    "deployed": "https://goat-note.herokuapp.com/",
+    "repo": "https://github.com/mplumer/Notable",
+    "body": [
+        "A note taking application that uses an Express.js-driven back end that captures user input to write, store, and delete notes."
+    ],
+    "features": [
+        {
+            "id": "feature-1",
+            "image": "./images/project-04-1.jpg"
+        },
+        {
+            "id": "feature-2",
+            "image": "./images/project-04-2.jpg"
+        }
+    ]
+}

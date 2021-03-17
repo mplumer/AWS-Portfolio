@@ -1,0 +1,10 @@
+/*--------------------
+ Responsive Styles  
+----------------------*/
+
+@media #{$md-layout} {
+    .rn-nav-image-item li.nav-item:last-child {
+        margin-top: -78px;
+    }
+}
+

@@ -1,0 +1,175 @@
+/* ----------------------
+Contact Styles  
+------------------------*/
+.rn-contact-area {
+    .section-title {
+        .title {
+            span {
+                &.bg {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    color: transparent;
+                    font-size: 150px;
+                    font-weight: 900;
+                    opacity: .1;
+                    line-height: 0;
+                    -webkit-text-stroke: 1px #000;
+                    -webkit-user-select: none;
+                    @media #{$lg-layout} {
+                        font-size: 90px;
+                    }
+                    @media #{$md-layout} {
+                        font-size: 70px;
+                    }
+                    @media #{$sm-layout} {
+                        font-size: 70px;
+                    }
+                    @media #{$large-mobile} {
+                        font-size: 40px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.contact-info-list-wrapper {
+    .list {
+        display: flex;
+        .icon {
+            color: var(--color-primary);
+            display: block;
+            width: 17px;
+            height: 17px;
+            margin-right: 10px;
+        }
+        .label {
+            min-width: 85px;
+            display: inline-block;
+            margin-right: 10px;
+            font-weight: 500;
+            color: var(--color-heading);
+        }
+        .link {
+            position: relative;
+            font-weight: 400;
+            color: var(--color-primary);
+            border-bottom: 1px solid transparent;
+            transition: all .3s ease;
+            &:hover {
+                border-bottom-color: var(--color-primary);
+            }
+        }
+        & + .list {
+            margin-top: 10px;
+        }
+    }
+}
+
+
+.form-group {
+    position: relative;
+    margin-bottom: 30px;
+    label {
+        line-height: 1.714;
+        position: absolute;
+        left: 15px;
+        top: 13px;
+        background: rgb(255, 255, 255);
+        padding: 0px 5px;
+        transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+        font-family: var(--font-secondary);
+        color: #717173;
+        font-weight: 400;
+        font-size: 13px;
+    }
+    input ,
+    textarea {
+        height: 44px;
+        padding-left: 10px;
+        padding-right: 10px;
+        transition: 0.3s;
+        outline: none;
+        border: 1px solid rgba(0,0,0,.2);
+        background-color: #fff;
+        border-radius: 10px;
+        font-size: 14px;
+        letter-spacing: 1.4px;
+        width: 100%;
+        font-weight: 400;
+        &:focus {
+            border: 1px solid var(--color-primary) !important;
+            outline: none;
+        }
+    }
+    textarea {
+        min-height: 120px;
+        transition: 0.3s;
+        resize: none;
+        &:focus {
+            border: 1px solid var(--color-primary) !important;
+            outline: none;
+        }
+    }
+    .error {
+        color: #f10;
+        display: inline-block;
+        left: 0px;
+        bottom: -26px;
+        font-size: 12px;
+    }
+}
+.form-submit {
+    button {
+        &.rn-button {
+            width: 100%;
+        }
+    }
+}
+
+.form-group input:focus ~ label,
+.form-group.has-value label {
+    top: -14px;
+}
+
+.form-group textarea:focus ~ label{
+    top: -14px;
+}
+
+
+.form-output {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.714;
+    &.success {
+        color: rgb(40, 167, 69);
+    }
+    &.error {
+        color: #f10;
+    }
+}
+
+/*--------------------------
+    Contact Area Styles  
+----------------------------*/
+
+.rn-contact-area {
+    .info {
+        padding-bottom: 45px;
+        p {
+            font-size: 15px;
+            line-height: 2.1;
+            letter-spacing: .8px;
+            font-weight: 400;
+            margin-bottom: 45px;
+            font-family: 'Mulish', sans-serif;
+        }
+    }
+}
+.contact-info-list-wrapper {
+    div {
+        border-radius: 10px;
+    }
+}

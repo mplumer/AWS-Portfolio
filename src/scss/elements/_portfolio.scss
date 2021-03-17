@@ -1,0 +1,140 @@
+/*--------------------
+Portfolio Styles 
+----------------------*/
+.portfolio-style-1 {
+    .section-title {
+        .title {
+            span {
+                &.bg {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    color: transparent;
+                    font-size: 150px;
+                    font-weight: 900;
+                    opacity: .1;
+                    line-height: 0;
+                    -webkit-text-stroke: 1px #000;
+                    -webkit-user-select: none;
+
+                    @media #{$lg-layout} {
+                        font-size: 90px;
+                    }
+                    @media #{$md-layout} {
+                        font-size: 70px;
+                    }
+                    @media #{$sm-layout} {
+                        font-size: 70px;
+                    }
+                    @media #{$large-mobile} {
+                        font-size: 40px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.portfolio {
+    margin-top: 90px;
+    position: relative;
+
+    @media #{$lg-layout} {
+        margin-top: 50px;
+    }
+
+    @media #{$md-layout} {
+        margin-top: 50px;
+    }
+
+    @media #{$sm-layout} {
+        margin-top: 50px;
+    }
+
+    .thumbnail {
+        a {
+            display: block;
+            height: 100%;
+            position: relative;
+            z-index: 1;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: all .3s ease;
+            div {
+                height: 100%;
+                border-radius: 8px;
+            }
+            img {
+                border-radius: 8px;
+                overflow: hidden;
+                transition: all .3s ease !important;
+            }
+        }
+        .gatsby-image-wrapper {
+            max-width: 100% !important;
+        }
+    }
+    .content {
+        padding-top: 20px;
+        .inner {
+            .title {
+                margin-bottom: 0;
+                a {
+                    font-size: 20px;
+                    font-weight: 600;
+                    margin-bottom: 10px;
+                    letter-spacing: .8px;
+                }
+            }
+            .category {
+                a {
+                    text-decoration: none;
+                    color: #333;
+                    position: relative;
+                    display: inline-block;
+                    &::after {
+                        content: '';
+                        width: 0;
+                        height: 1px;
+                        position: absolute;
+                        left: auto;
+                        right: 0;
+                        bottom: 0;
+                        transition: width .6s cubic-bezier(.25,.8,.25,1) 0s;
+                        background: currentColor;
+                    }
+                    &:hover {
+                        &::after {
+                            width: 100%;
+                            left: 0;
+                            right: auto;
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+    &:hover {
+        .thumbnail {
+            a {
+                img {
+                    transform: scale(1.1) translateZ(0);
+                }
+            }
+        }
+        .content {
+            .inner {
+                .title{ 
+                    
+                }
+                .category {
+                    
+                }
+            }
+            
+        }
+    }
+}
+

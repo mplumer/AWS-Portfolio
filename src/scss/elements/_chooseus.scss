@@ -1,0 +1,59 @@
+/*-------------------------
+Choose Us Area  
+-------------------------*/
+
+.choose-us-style-01 {
+    .image-group {
+        display: flex;
+        margin: 0 -15px;
+        height: 100%;
+        padding-right: 50px;
+        @media #{$lg-layout} {
+            padding-right: 0;
+        }
+        @media #{$md-layout} {
+            padding-right: 0;
+        }
+        @media #{$sm-layout} {
+            padding-right: 0;
+        }
+        .single-image {
+            padding: 0 15px;
+            width: 50%;
+            height: 100%;
+            div {
+                height: 100%;
+            }
+        }
+    }
+}
+
+.feature-list-inner {
+    .feature-list {
+        display: flex;
+        margin-top: 32px;
+        &:first-child {
+            margin-top: 0;
+        }
+        .feature-icon {
+            .icon {
+                color: var(--color-primary);
+                font-size: 24px;
+                line-height: 0;
+                margin-right: 20px;
+            }
+        }
+        .feature-content {
+            .title {
+                font-size: 21px;
+                margin-bottom: 24px;
+                font-weight: 500;
+            }
+            .description {
+                line-height: 1.5;
+                letter-spacing: 0.5px;
+            }
+        }
+    }
+}
+

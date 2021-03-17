@@ -1,0 +1,23 @@
+{
+    "id": "project-06",
+    "title": "Deep-Thoughts",
+    "category": "API, NoSQL, JavaScript",
+    "repo": "",
+    "deployed": "",
+    "year": "2020",
+    "featured_image": "./images/project-06.jpg",
+    "is_featured": true,
+    "body": [
+        "Social Network API is a NoSQL database application designed to allow users to share thoughts, as well as reactions to those thoughts."
+    ],
+    "features": [
+        {
+            "id": "feature-1",
+            "image": "./images/project-06-1.jpg"
+        },
+        {
+            "id": "feature-2",
+            "image": "./images/project-06-2.jpg"
+        }
+    ]
+}

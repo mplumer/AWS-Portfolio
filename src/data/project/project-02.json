@@ -1,0 +1,23 @@
+{
+    "id": "project-02",
+    "title": "Budget-Max",
+    "category": "PWA, API, Express",
+    "year": "2020",
+    "deployed": "https://budget-max.herokuapp.com/",
+    "repo": "https://github.com/mplumer/budget-max",
+    "featured_image": "./images/project-02.jpg",
+    "is_featured": true,
+    "body": [
+        "Budget Tracker API is an Express-based, progressive web application (PWA) designed to allow users to track their budget, whether internet service is available or not."
+    ],
+    "features": [
+        {
+            "id": "feature-1",
+            "image": "./images/project-02-1.jpg"
+        },
+        {
+            "id": "feature-2",
+            "image": "./images/project-02-2.jpg"
+        }
+    ]
+}

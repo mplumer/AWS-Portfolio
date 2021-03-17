@@ -1,0 +1,123 @@
+/*----------------------
+About Styles  
+-----------------------*/
+
+.about-style {
+    .content {
+        .title-wrap {
+            border-bottom: 1px solid rgba(0,0,0,.2);
+            padding-bottom: 25px;
+            margin-bottom: 25px;
+            @media #{$md-layout} {
+                padding-bottom: 6px;
+                margin-bottom: 22px;
+            }
+            @media #{$sm-layout} {
+                padding-bottom: 6px;
+                margin-bottom: 22px;
+            }
+        }
+
+        .title {
+            text-transform: uppercase;
+            font-weight: 900;
+            font-size: 35px;
+            position: relative;
+            color: #000;
+            line-height: 1.4;
+            @media #{$sm-layout} {
+                font-size: 26px;
+            }
+            span {
+                display: inline-block;
+                padding-top: 10px;
+                &.bg {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    color: transparent;
+                    font-size: 150px;
+                    font-weight: 900;
+                    opacity: .1;
+                    line-height: 0;
+                    -webkit-text-stroke: 1px #000;
+                    -webkit-user-select: none;
+                    @media #{$lg-layout} {
+                        font-size: 90px;
+                    }
+                    @media #{$md-layout} {
+                        font-size: 70px;
+                    }
+                    @media #{$sm-layout} {
+                        font-size: 70px;
+                    }
+                }
+            }
+        }
+        .subtitle {
+            font-weight: 600;
+            display: inline-block;
+            font-size: 15px;
+            line-height: 2.1;
+            letter-spacing: .8px;
+            color: #333;
+        }
+
+        .description {
+            margin-bottom: 12px;
+            font-size: 15px;
+            line-height: 2.1;
+            letter-spacing: .8px;
+            font-weight: 400;
+            color: #333;
+            padding-right: 14%;
+            font-family: 'Mulish', sans-serif;
+            @media #{$sm-layout} {
+                padding-right: 0;
+            }
+        }
+
+        ul {
+            &.aboutdata-list {
+                margin-top: 36px;
+                li {
+                   
+                    .icon {
+
+                    }
+                    .label {
+
+                    }
+                    .value {
+
+                    }
+                }
+            }
+        }
+    }
+    .thumbnail {
+        @media #{$md-layout} {
+            margin-bottom: 40px;
+        }
+        @media #{$sm-layout} {
+            margin-bottom: 40px;
+        }
+        .about-images {
+            @media #{$lg-layout} {
+                width: 100% !important;
+            }
+            @media #{$md-layout} {
+                width: 100% !important;
+            }
+            @media #{$sm-layout} {
+                width: 100% !important;
+            }
+            img {
+                border-radius: 5px;
+            }
+        }
+    }
+}
+
+
+

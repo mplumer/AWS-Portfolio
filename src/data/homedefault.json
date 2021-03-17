@@ -1,0 +1,148 @@
+[
+    {
+        "id": "main-banner",
+        "title": "Max<span class='color-primary'>Plumer</span>",
+        "subtitle": "Creative Web & App Developer",
+        "bgImage": "./images/banner/bg-image-02.jpg",
+        "image": "./images/banner/person-image.jpg"
+    },
+
+    {
+        "id": "about",
+        "title": "Max Plumer",
+        "subtitle": "Creative Web & App Developer",
+        "description": "I am a Web Developer, Certified through Vanderbilt University, with skills in both the back-end and front-end of web applications. I have a strong history with building client relations, and a passion for improving my craft.",
+        "description2": "My current role as Business Operations Manager has taught me the importance of viewing the challenges of a business through the lens of a developer and utilizing cutting-edge web technologies to constantly improve the customer experience. I enjoy every step of the design process, from discussion and collaboration.",
+        "downloadButton": "Download CV",
+        "githubButton": "Check Out All My Work on GitHub",
+        "linkBUtton": "Send Message",
+        "aboutData": [
+            {   
+                "id": "aboutinfo-1",
+                "iconName": "FiArrowRightCircle",
+                "label": "Birthday",
+                "value": "05.24.1993"
+            },
+            {
+                "id": "aboutinfo-2",
+                "iconName": "icon",
+                "label": "Age",
+                "value": "27"
+            },
+            {
+                "id": "aboutinfo-3",
+                "iconName": "icon",
+                "label": "Location",
+                "value": "Lake Wales, Florida, USA"
+            },
+            {
+                "id": "aboutinfo-3",
+                "iconName": "icon",
+                "label": "Interests",
+                "value": "Golfing and Riding the OneWheel"
+            },
+            {
+                "id": "aboutinfo-3",
+                "iconName": "icon",
+                "label": "Study",
+                "value": "Vanderbilt University"
+            },
+            {
+                "id": "aboutinfo-4",
+                "iconName": "icon",
+                "label": "Certificate",
+                "value": "Full Stack Web Development"
+            },
+            {
+                "id": "aboutinfo-5",
+                "iconName": "icon",
+                "label": "Mail",
+                "value": "maxplumer12@gmail.com"
+            },
+            {
+                "id": "aboutinfo-6",
+                "iconName": "icon",
+                "label": "Phone",
+                "value": "(813)613-8463)"
+            }
+        ]
+    },
+
+    {
+        "id": "skill",
+        "title": "In a <span class='theme-color'>short time</span>, I have been able to achieve excellence in all areas of development.",
+        "description": "I provide cost-effective and high quality products to meet our Clients’ needs of timely We provide cost-effective and high quality products to meet our Clients’ needs of timely."
+    },
+    {
+        "id": "portfolio",
+        "title": "Featured Works",
+        "description": "In other words, the best marketing decision you can make is to have a product or business that fulfills a real and compelling need for a real and defined group of people — no matter how much tweaking and refining this takes.(c)"
+    },
+    {
+        "id": "chooseus",
+        "imagegroup": [
+            {
+                "image": "./images/others/why-1.jpg"
+            },
+            {
+                "image": "./images/others/why-2.jpg"
+            }
+        ]
+        
+    },
+
+    {
+        "id": "skillTwo",
+        "title": "My Skills in <span class='theme-color'>Years</span>",
+        "description": "When the past gets its teeth into our daily life, it may get to grips with an astringent reality and adjust our timeline. By recognizing ourselves in the light of our history, we become aware of what we are.(c)"
+    },
+    {
+        "id": "testimonial",
+        "title": "Al Scutte III",
+        "subtitle": "Owner of Jumpstart Productions.",
+        "description": "Max is the best.",
+        "bgImage": "./images/banner/bg-image-03.jpg"
+    },
+    {
+        "id": "brand",
+        "brandGroup": [
+            {
+                "id": "brand-01",
+                "image": "./images/brand/1.png"
+            },
+            {
+                "id": "brand-02",
+                "image": "./images/brand/2.png"
+            },
+            {
+                "id": "brand-03",
+                "image": "./images/brand/3.png"
+            },
+            {
+                "id": "brand-04",
+                "image": "./images/brand/4.png"
+            },
+            {
+                "id": "brand-01",
+                "image": "./images/brand/5.png"
+            },
+            {
+                "id": "brand-02",
+                "image": "./images/brand/6.png"
+            },
+            {
+                "id": "brand-03",
+                "image": "./images/brand/3.png"
+            },
+            {
+                "id": "brand-04",
+                "image": "./images/brand/4.png"
+            }
+        ]
+    },
+    {
+        "id": "contactus",
+        "title": "Get in Touch",
+        "subtitle": "I'm looking for work!"
+    }
+]

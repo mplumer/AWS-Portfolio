@@ -1,0 +1,123 @@
+@keyframes slide-effect {
+    0% {
+        transform: translateX(-100%)
+    }
+    50% {
+        transform: translateX(0)
+    }
+    100% {
+        transform: translateX(100%)
+    }
+}
+
+@keyframes rn_surface {
+	0% {
+		transform: translateX(-100%)
+	}
+	50% {
+		transform: translateX(0)
+	}
+	100% {
+		transform: translateX(100%)
+	}
+}
+
+@keyframes rn_surfaceBack {
+	0% {
+		transform: translateX(0)
+	}
+	100% {
+		transform: translateX(100%)
+	}
+}
+
+@keyframes rn_surface-vertical {
+	0% {
+		transform: translateY(100%)
+	}
+	50% {
+		transform: translateY(0)
+	}
+	100% {
+		transform: translateY(-100%)
+	}
+}
+
+@keyframes rnPreloaderShatter {
+	0% {
+		width: 50%; 
+	}
+	100% {
+		width: 0%; 
+	} 
+}
+
+@keyframes rnPreloaderZoomInOut {
+    0% {
+        transform: scale(1,1);
+    }
+    50% {
+        transform: scale(1.3,1.3);
+    }
+    100% {
+        transform: scale(1,1);
+    }
+}
+@keyframes rnRotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+.rn_surface {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+
+.trigger {
+    position: relative;
+    z-index: 2;
+}
+
+.rn_surface::after, 
+.rn_surface::before {
+    content: "";
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.rn_surface::after {
+    background: rgb(255, 255, 255);
+    z-index: 1;
+}
+
+.rn_surface.animated::before {
+    background: #ffffff;
+    animation: 2s cubic-bezier(0.8, 0, 0.18, 1) 0s 1 normal both running rn_surface;
+    z-index: 3;
+}
+
+.rn_surface.animated::after {
+    animation: 2s cubic-bezier(0.8, 0, 0.18, 1) 0s 1 normal both running rn_surfaceBack;
+}
+
+
+
+
+
+
+
+
+
+
+
+

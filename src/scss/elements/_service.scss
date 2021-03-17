@@ -1,0 +1,52 @@
+/*----------------------
+    Service Style  
+-----------------------*/
+
+.rn-service-area {
+    margin-top: -40px;
+}
+
+.service {
+    margin-top: 40px;
+    .inner {
+        display: flex;
+        .icon {
+            padding-right: 38px;
+            @media #{$sm-layout} {
+                padding-right: 18px;
+            }
+            svg {
+                top: 5px;
+                width: 50px;
+                height: 50px;
+                color: #000;
+            }
+        }
+        .content {
+            .title {
+                font-size: 20px;
+                font-weight: 600;
+                margin-bottom: 10px;
+                line-height: 1.4;
+            }
+            p {
+                font-size: 15px;
+                line-height: 2.1;
+                letter-spacing: .8px;
+                font-weight: 400;
+                color: #333;
+                font-family: 'Mulish', sans-serif;
+                padding-right: 20%;
+                @media #{$lg-layout} {
+                    padding-right: 0;
+                }
+                @media #{$md-layout} {
+                    padding-right: 0;
+                }
+                @media #{$sm-layout} {
+                    padding-right: 0;
+                }
+            }
+        }
+    }
+}

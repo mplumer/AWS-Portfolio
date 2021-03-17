@@ -1,0 +1,64 @@
+/*----------------------
+    NavBar Styles  
+------------------------*/
+
+ul {
+    &.mainmenuwrapper {
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+        margin: 0;
+        li {
+            margin-right: 30px;
+            margin-top: 0;
+            margin-bottom: 0;
+            &:last-child {
+                margin-right: 0;
+            }
+
+            a {
+                color: var(--color-primary);
+                font-weight: 600;
+                font-size: 15px;
+                line-height: 2.1;
+                letter-spacing: .8px;
+                position: relative;
+                &::after {
+                    position: absolute;
+                    content: "";
+                    width: 0;
+                    height: 3px;
+                    background: #000;
+                    left: 0;
+                    bottom: 0;
+                    transition: 0.4s;
+                }
+                .hover-item {
+                    span {
+                        &::before {
+                            color: var(--color-primary);
+                        }
+                        &::before {
+                            color: var(--color-primary);
+                        }
+                    }
+                }
+            }
+            &.is-current {
+                a {
+                    &.menu-hover-link {
+                        &::after {
+                            width: 100%;
+                        }
+                        span {
+                            &::before {
+                                color: var(--color-secondary);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

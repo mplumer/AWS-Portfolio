@@ -1,0 +1,107 @@
+/*********************************************************************************
+
+	Template Name: Template Full Name Here
+	Description: A perfect Template For Portfolio. It comes with nice and clean design.
+	Version: 1.0
+
+	Note: This is style css.
+
+**********************************************************************************/
+
+/**************************************************************
+	
+	STYLESHEET INDEXING
+	|
+	|
+	|___ Default Styles
+	|	|
+	|	|___ Reset Styles
+	|	|___ Typography
+	|	|___ Animations
+	|	|___ Utilities
+	|
+	|
+	|___Elements Styles
+	|	|___ Button
+	|	|___ Section Title
+	|
+	|
+	|___Blocks Styles
+	|	|___ Header 
+	|	|___ Navigation 
+	|	|___ Banner
+	|	|___ Footer
+	|
+	|
+	|___ END STYLESHEET INDEXING
+
+***************************************************************/
+
+
+// Bootstrap Scss 
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+
+/**************************************
+    Default Styles
+***************************************/
+@import 'default/variables';
+@import 'default/mixins';
+@import 'default/reset';
+@import 'default/typography';
+@import 'default/extend';
+@import 'default/animations';
+@import 'default/animation-text';
+@import 'default/shortcode';
+@import 'default/spacing';
+
+
+/**************************************
+	Header Styles
+***************************************/
+@import 'header/header';
+@import 'header/breadcrumbs';
+@import 'header/popup-menu';
+@import 'header/navbar';
+
+
+/**************************************
+	Elements Styles
+***************************************/
+@import 'elements/button';
+@import 'elements/section-title';
+@import 'elements/banner';
+@import 'elements/about';
+@import 'elements/service';
+@import 'elements/counterup';
+@import 'elements/callto-action';
+@import 'elements/portfolio';
+@import 'elements/chooseus';
+@import 'elements/iconbox';
+@import 'elements/testimonial';
+@import 'elements/brand';
+@import 'elements/backtotop';
+@import 'elements/contact';
+@import 'elements/bannervariation';
+
+
+/**************************************
+	Blog Styles
+***************************************/
+// @import 'blog/blog-list';
+// @import 'blog/blog-sidebar';
+// @import 'blog/blog-details';
+
+/**************************************
+	Template Styles
+***************************************/
+@import 'template/portfolio-details';
+@import 'template/error';
+
+
+/**************************************
+	Footer Styles
+***************************************/
+@import 'footer/footer';
+@import 'footer/new';
+@import 'footer/responsive';

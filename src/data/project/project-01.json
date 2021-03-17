@@ -1,0 +1,23 @@
+{
+    "id": "project-01",
+    "title": "Shop-Shop-Redux",
+    "category": "MERN",
+    "year": "2021",
+    "repo": "https://github.com/mplumer/shop-shop-redux",
+    "deployed": "https://shop-shop-redux-max.herokuapp.com/",
+    "featured_image": "./images/project-01.jpg",
+    "is_featured": true,
+    "body": [
+        "Shop-Shop-Redux is an e-commerce MERN application that utilizes Apollo, Redux, GraphQL and Stripe to facilitate a smooth, user-friendly online shopping experience"
+    ],
+    "features": [
+        {
+            "id": "feature-1",
+            "image": "./images/project-01-1.jpg"
+        },
+        {
+            "id": "feature-2",
+            "image": "./images/project-01-2.jpg"
+        }
+    ]
+}

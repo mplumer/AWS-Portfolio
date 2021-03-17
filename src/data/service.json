@@ -1,0 +1,44 @@
+[
+    {
+        "id" : "service-1",
+        "number": "01",
+        "title": "Web Development",
+        "description": "Web development is the work involved in developing a web site for the Internet...",
+        "readmoreButton": "Read More..."
+    },
+    {
+        "id" : "service-2",
+        "number": "02",
+        "title": "Graphic Design",
+        "description": "Graphic design is the process of visual communication and problem-solving...",
+        "readmoreButton": "Read More..."
+    },
+    {
+        "id" : "service-3",
+        "number": "03",
+        "title": "Adobe Photoshop",
+        "description": "Adobe Photoshop is software that is extensively used for raster image editing...",
+        "readmoreButton": "Read More..."
+    },
+    {
+        "id" : "service-4",
+        "number": "04",
+        "title": "Web Organize",
+        "description": "Web development is the work involved in developing a web site for the Internet...",
+        "readmoreButton": "Read More..."
+    },
+    {
+        "id" : "service-5",
+        "number": "05",
+        "title": "Branding Identity",
+        "description": "Web development is the work involved in developing a web site for the Internet...",
+        "readmoreButton": "Read More..."
+    },
+    {
+        "id" : "service-6",
+        "number": "06",
+        "title": "Social Media",
+        "description": "Adobe Photoshop is software that is extensively used for raster image editing...",
+        "readmoreButton": "Read More..."
+    }
+]

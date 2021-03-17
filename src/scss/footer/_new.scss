@@ -1,0 +1,21 @@
+/*------------------------
+    New Css Here  
+--------------------------*/
+
+.wp-block-gallery .blocks-gallery-grid .blocks-gallery-item a img {
+    border-radius: 10px;
+}
+.tags-cloud a {
+    border-radius: 10px;
+}
+
+.mt_dec--30 {
+    margin-top: -30px !important;
+}
+
+@media #{$sm-layout} {
+    .section-title .title span.bg {
+        display: none !important;
+    }
+}
+

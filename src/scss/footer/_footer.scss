@@ -1,0 +1,67 @@
+/*===========================
+    Start Footer Area 
+=============================*/
+.rn-footer-area {
+    .ft-info {
+        p {
+            display: block;
+            color: #fff;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 2.1;
+            letter-spacing: .8px;
+            @media #{$sm-layout} {
+                font-size: 17px;
+            }
+        }
+    }
+}
+
+.rn-footer-area {
+    position: relative;
+    .copyright-text {
+        color: #bbb;
+    }
+
+    .social-share {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        li {
+            margin-right: 20px;
+            a {
+                display: inline-block;
+                svg {
+                    width: 20px;
+                    height: 20px;
+                    fill: #fff;
+                    transition: 0.5s;
+                }
+            }
+            &:hover {
+                a {
+                    svg {
+                        opacity: 0.5;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.back-to-top {
+    position: fixed;
+    right: 50px;
+    bottom: 100px;
+    @media #{$md-layout} {
+        right: 30px;
+        bottom: 50px;
+    }
+    @media #{$sm-layout} {
+        right: 30px;
+        bottom: 50px;
+    }
+}
+
+

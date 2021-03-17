@@ -1,0 +1,24 @@
+{
+    "id": "project-05",
+    "title": "Parents-Only",
+    "category": "React.js, Express, Apollo-Server, GraphQL, Mongoose, Bcrypt, JWT",
+    "deployed": "https://arcane-reaches-47656.herokuapp.com/",
+    "repo": "https://github.com/parents-only/parents-only",
+    "year": "2021",
+    "featured_image": "./images/project-05.jpg",
+    "is_featured": true,
+    "body": [
+        "I worked within a team of six to complete this application in under two weeks. Parents-Only is designed to give parents the opportunity to meet other parents with similar lifestyle to connect and make friends."
+    ],
+    "features": [
+        {
+            "id": "feature-1",
+            "image": "./images/project-05-1.jpg"
+        },
+        {
+            "id": "feature-2",
+            "image": "./images/project-05-2.jpg"
+        }
+    ]
+
+}

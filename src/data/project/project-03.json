@@ -1,0 +1,24 @@
+{
+    "id": "project-03",
+    "title": "Book Search Engine",
+    "category": "MERN, API",
+    "year": "2021",
+    "featured_image": "./images/project-03.jpg",
+    "deployed": "https://quiet-cliffs-01279.herokuapp.com/",
+    "repo": "https://github.com/mplumer/book-search-engine",
+    "is_featured": true,
+    "body": [
+        "Book Search Engine is an Apollo and React based application that allows users to browse Google Books API and choose books to save and display in their own, unique account pages."
+    ],
+    "demo": "https://drive.google.com/file/d/1U8VPWFJ3o4fjRA85ZW1yBRS8Rl2a2uZ5/preview",
+    "features": [
+        {
+            "id": "feature-1",
+            "image": "./images/project-03-1.jpg"
+        },
+        {
+            "id": "feature-2",
+            "image": "./images/project-03-2.jpg"
+        }
+    ]
+}
