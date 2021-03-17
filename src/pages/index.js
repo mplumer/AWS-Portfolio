@@ -19,7 +19,7 @@ const IndexPage = () => (
     <div className="portfolio-id" id="portfolio">
       <Project />
     </div> 
-    <Contact />
+    
   </Layout>
 )
 export default IndexPage;
