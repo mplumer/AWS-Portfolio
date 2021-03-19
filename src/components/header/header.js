@@ -3,7 +3,8 @@ import PropTypes from "prop-types";
 import {useStaticQuery, graphql , Link} from 'gatsby';
 import Img from "gatsby-image";
 import Scrollspy from 'react-scrollspy';
-import resume from '../../assets/documents/Resume-Maxwell-Plumer (2).pdf'
+import resume from '../../assets/documents/Resume-Maxwell-Plumer (2).pdf';
+const github = 'https://github.com/mplumer';
 
 // Start Header Area 
 const Header = () => {
@@ -58,7 +59,7 @@ const Header = () => {
                             {/* Start Mainmenu Area  */}
                             <div className="col-lg-9">
                                 <div className="menu_wrapper">
-                                    <Scrollspy className="mainmenuwrapper" items={['home','about', 'portfolio', 'contact', 'resume']} currentClassName="is-current" offset={-200}>
+                                    <Scrollspy className="mainmenuwrapper" items={['home','about', 'portfolio', 'resume']} currentClassName="is-current" offset={-200}>
                                         <li>
                                             <a className="menu-hover-link" href="/#home">
                                                 <span className="hover-item">
@@ -83,13 +84,13 @@ const Header = () => {
                                             </a>
                                         </li>
 
-                                        <li>
-                                            <a className="menu-hover-link" href="/#contact">
+                                        {/* <li>
+                                            <a className="menu-hover-link" href={github}>
                                                 <span className="hover-item">
-                                                    <span data-text="Contact">Contact</span>
+                                                    <span data-text="Contact">GitHub</span>
                                                 </span>
                                             </a>
-                                        </li>
+                                        </li> */}
 
                                         <li>
                                             <a className="menu-hover-link" href={resume}>

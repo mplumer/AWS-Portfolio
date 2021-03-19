@@ -11,6 +11,8 @@ const ProjectOne = () => {
                     id
                     title
                     category
+                    deployed
+                    repo
                     featured_image {
                         childImageSharp {
                             fluid(maxWidth: 374, maxHeight: 374, quality: 100) {
@@ -38,6 +40,8 @@ const ProjectOne = () => {
                     image={data.node.featured_image.childImageSharp}
                     title={data.node.title}
                     category={data.node.category}
+                    repo={data.node.repo}
+                    deployed={data.node.deployed}
                 />
             ))}
         </div>

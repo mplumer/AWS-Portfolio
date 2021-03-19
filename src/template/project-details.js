@@ -3,10 +3,12 @@ import Img from "gatsby-image";
 import Image from "../elements/image";
 import { FiList } from "react-icons/fi";
 import Layout from "../components/layout";
+import { Button } from 'reactstrap';
 
 const ProjectDetails = ({data}) => {
     const projectData = data.projectJson;
     const projectImage = data.projectJson.features;
+
     return (
         <Layout>
             <div className="rn-project-details-area rn-section-gap bg-color-white">
@@ -25,6 +27,10 @@ const ProjectDetails = ({data}) => {
                                                 <ul className="list_holder">
                                                     <li><span className="icon"><FiList />Category:</span><span className="projectinfo">{projectData.category}</span></li>
                                                 </ul>
+                                                <div className="button-group mt--20">
+                                                <Button className="link-button" ><a href={projectData.repo}>Link to GitHub Repo</a></Button>
+                                                <Button className="link-button" ><a href={projectData.deployed}>Link to Deployed Project</a></Button>
+                                                </div>
                                                 <p className="mt--20">{projectData.body}</p>
                                             </div>
                                         </div>
@@ -32,7 +38,7 @@ const ProjectDetails = ({data}) => {
                                     </div>
                                 </div>
                                 <div className="thumbnail mt--90 mt_md--40 mt_sm--40">
-                                    <Image fluid={projectData.featured_image.childImageSharp.fluid} />
+                                    <a href={projectData.deployed}>  <Image fluid={projectData.featured_image.childImageSharp.fluid} /></a>
                                 </div>
 
                                 <div className="image-group">

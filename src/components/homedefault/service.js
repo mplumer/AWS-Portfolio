@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaBusinessTime , FaCertificate, FaSchool } from "react-icons/fa";
+import VandyLogo from '../../assets/images/logo/vandyLogo.png';
 
 const Service = () => {
     return (
@@ -14,7 +15,7 @@ const Service = () => {
                             <div className="service wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1000ms">
                                 <div className="inner">
                                     <div className="icon">
-                                        <FaCertificate />
+                                        <img src={VandyLogo} />
                                     </div>
                                     <div className="content">
                                     <h4 className="title">Certified Web Developer</h4>
