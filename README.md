@@ -12,9 +12,9 @@ My latest portfolio, showcasing skills learned post bootcamp graduation. Created
 ## Link to Deployed Application
 * [Maxwell Plumer's Portfolio](https://www.maxplumer.com)
 
-![Screenshot](src/assets/images/Portfolio-Screenshot1.png)
-![Screenshot](src/assets/images/Portfolio-Screenshot2.png)
-![Screenshot](src/assets/images/Portfolio-Screenshot3.png)
+![Screenshot](src/assets/images/Portfolio-Screenshot1.jpg)
+![Screenshot](src/assets/images/Portfolio-Screenshot2.jpg)
+![Screenshot](src/assets/images/Portfolio-Screenshot3.jpg)
 
 ### Installation
 Follow the deployed application link: https://www.maxplumer.com. From here, use the app online, and/or click the circled plus symbol in the url bar to install the PWA to your device for use offline.
