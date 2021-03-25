@@ -1,11 +1,11 @@
 {
     "id": "project-06",
-    "title": "Deep-Thoughts",
-    "category": "API, NoSQL, JavaScript",
-    "repo": "https://github.com/mplumer/deep-thoughts",
+    "title": "Deeper-Thoughts",
+    "category": "React.js, Node.js, DynamoDB, S3, EC2",
+    "repo": "https://github.com/mplumer/deeper-thoughts",
     "deployed": "",
     "year": "2020",
-    "featured_image": "./images/project-06.jpg",
+    "featured_image": "./images/deeper-thoughts-screenshot1.jpg",
     "is_featured": true,
     "body": [
         "Social Network API is a NoSQL database application designed to allow users to share thoughts, as well as reactions to those thoughts."
@@ -13,11 +13,11 @@
     "features": [
         {
             "id": "feature-1",
-            "image": "./images/project-06-1.jpg"
+            "image": "./images/deeper-thoughts-screenshot2.jpg"
         },
         {
             "id": "feature-2",
-            "image": "./images/project-06-2.jpg"
+            "image": "./images/deeper-thoughts-screenshot3.jpg"
         }
     ]
 }
