@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaBusinessTime , FaCertificate, FaSchool } from "react-icons/fa";
+import { FaBusinessTime, FaSchool } from "react-icons/fa";
 import VandyLogo from '../../assets/images/logo/vandyLogo.png';
 
 const Service = () => {

@@ -31,48 +31,44 @@
             },
             {
                 "id": "aboutinfo-3",
-                "iconName": "icon",
+                "iconName": "fas fa-umbrella-beach",
                 "label": "Location",
-                "value": "Lake Wales, Florida, USA"
+                "value": "Tampa, Florida"
             },
             {
                 "id": "aboutinfo-3",
-                "iconName": "icon",
+                "iconName": "fas fa-golf-ball",
                 "label": "Interests",
                 "value": "Golfing and Riding the OneWheel"
             },
             {
                 "id": "aboutinfo-3",
-                "iconName": "icon",
+                "iconName": "./images/logo/vandyLogo.jpg",
                 "label": "Study",
                 "value": "Vanderbilt University"
             },
             {
                 "id": "aboutinfo-4",
-                "iconName": "icon",
+                "iconName": "fas fa-layer-group",
                 "label": "Certificate",
                 "value": "Full Stack Web Development"
             },
             {
                 "id": "aboutinfo-5",
-                "iconName": "icon",
+                "iconName": "fas fa-envelope",
                 "label": "Mail",
                 "value": "maxplumer12@gmail.com"
             },
             {
                 "id": "aboutinfo-6",
-                "iconName": "icon",
+                "iconName": "fas fa-phone",
                 "label": "Phone",
                 "value": "(813)613-8463)"
             }
         ]
     },
 
-    {
-        "id": "skill",
-        "title": "In a <span class='theme-color'>short time</span>, I have been able to achieve excellence in all areas of development.",
-        "description": "I provide cost-effective and high quality products to meet our Clients’ needs of timely We provide cost-effective and high quality products to meet our Clients’ needs of timely."
-    },
+   
     {
         "id": "portfolio",
         "title": "Featured Works",
@@ -90,10 +86,9 @@
         ]
         
     },
-
     {
         "id": "skillTwo",
-        "title": "My Skills in <span class='theme-color'>Years</span>",
+        "title": "My Skills",
         "description": "When the past gets its teeth into our daily life, it may get to grips with an astringent reality and adjust our timeline. By recognizing ourselves in the light of our history, we become aware of what we are.(c)"
     },
     {
@@ -108,38 +103,87 @@
         "brandGroup": [
             {
                 "id": "brand-01",
-                "image": "./images/brand/1.png"
+                "image": "./images/brand/1.png",
+                "description": "HTML5"
             },
             {
                 "id": "brand-02",
-                "image": "./images/brand/2.png"
+                "image": "./images/brand/2.png",
+                "description": "CSS3"
             },
             {
                 "id": "brand-03",
-                "image": "./images/brand/3.png"
+                "image": "./images/brand/3.png",
+                "description": "Javascript"
             },
             {
                 "id": "brand-04",
-                "image": "./images/brand/4.png"
+                "image": "./images/brand/4.png",
+                "description": "React.js"
             },
             {
                 "id": "brand-01",
-                "image": "./images/brand/5.png"
+                "image": "./images/brand/5.png",
+                "description": "Node.js"
             },
             {
                 "id": "brand-02",
-                "image": "./images/brand/6.png"
+                "image": "./images/brand/6.png",
+                "description": "Git"
             },
             {
                 "id": "brand-03",
-                "image": "./images/brand/3.png"
+                "image": "./images/brand/7.png",
+                "description": "Amazon Web Services"
             },
             {
                 "id": "brand-04",
-                "image": "./images/brand/4.png"
+                "image": "./images/brand/8.png",
+                "description": "MySQL"
+            },
+            {
+                "id": "brand-01",
+                "image": "./images/brand/9.png",
+                "description": "GraphQL"
+            },
+            {
+                "id": "brand-02",
+                "image": "./images/brand/10.png",
+                "description": "MongoDB"
+            },
+            {
+                "id": "brand-03",
+                "image": "./images/brand/11.png",
+                "description": "Heroku"
+            },
+            {
+                "id": "brand-04",
+                "image": "./images/brand/12.png",
+                "description": "GitHub"
+            },
+            {
+                "id": "brand-01",
+                "image": "./images/brand/13.png",
+                "description": "Redux"
+            },
+            {
+                "id": "brand-02",
+                "image": "./images/brand/14.png",
+                "description": "npm"
+            },
+            {
+                "id": "brand-03",
+                "image": "./images/brand/15.png",
+                "description": "Microsoft Office"
+            },
+            {
+                "id": "brand-04",
+                "image": "./images/brand/16.png",
+                "description": "PHP"
             }
-        ]
+                    ]
     },
+    
     {
         "id": "contactus",
         "title": "Get in Touch",

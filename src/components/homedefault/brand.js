@@ -21,9 +21,17 @@ const Brand = () => {
     const BrandImage = brandQueryData.homedefaultJson.brandGroup;
     return (
         <div className="rn-brand-area rn-section-gapTop pb--200">
+        
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
+                    <div className="section-title">
+                            <h3 className="title"> 
+                                My Skills
+                                <span className="bg">Skills</span>
+                            </h3>
+                        </div>
+                        <br />
                         <div className="brand-list-wrapper">
                             {BrandImage.map((data, index) => (
                                 <div className="single-image" key={index}>

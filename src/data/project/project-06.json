@@ -1,14 +1,14 @@
 {
     "id": "project-06",
-    "title": "Deeper-Thoughts",
+    "title": "Deeper-Thought",
     "category": "React.js, Node.js, DynamoDB, S3, EC2",
-    "repo": "https://github.com/mplumer/deeper-thoughts",
-    "deployed": "",
+    "repo": "https://github.com/mplumer/deeper-thought",
+    "deployed": "Please use your own EC2 instance, or run locally.",
     "year": "2020",
     "featured_image": "./images/deeper-thoughts-screenshot1.jpg",
     "is_featured": true,
     "body": [
-        "Social Network API is a NoSQL database application designed to allow users to share thoughts, as well as reactions to those thoughts."
+        "The goal for this project was to implement some of the services offered by AWS to an existing app where users are able to post thoughts. The app utilizes a React front-end and a Node.js, Express, and DynamoDB back-end. The app uses an S3 bucket to store pictures, a DynamoDB to store all other data, and is hosted on an EC2 instance."
     ],
     "features": [
         {
