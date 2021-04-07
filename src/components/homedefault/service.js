@@ -15,7 +15,7 @@ const Service = () => {
                             <div className="service wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1000ms">
                                 <div className="inner">
                                     <div className="icon">
-                                        <img src={VandyLogo} />
+                                        <img src={VandyLogo} alt="vanderbilt university certification" />
                                     </div>
                                     <div className="content">
                                     <h4 className="title">Certified Web Developer</h4>

@@ -4,7 +4,7 @@ import {useStaticQuery, graphql , Link} from 'gatsby';
 import Img from "gatsby-image";
 import Scrollspy from 'react-scrollspy';
 import resume from '../../assets/documents/Resume-Maxwell-Plumer (2).pdf';
-const github = 'https://github.com/mplumer';
+//const github = 'https://github.com/mplumer';
 
 // Start Header Area 
 const Header = () => {

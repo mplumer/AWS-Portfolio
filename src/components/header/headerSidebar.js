@@ -4,7 +4,7 @@ import {useStaticQuery, graphql , Link} from 'gatsby';
 import Img from "gatsby-image";
 import Scrollspy from 'react-scrollspy';
 import resume from '../../assets/documents//Resume-Maxwell-Plumer (2).pdf'
-import { FaGithub } from "react-icons/fa";
+//import { FaGithub } from "react-icons/fa";
 
 // Start Header Area 
 const HeaderNoSidebar = () => {
@@ -105,13 +105,6 @@ const HeaderNoSidebar = () => {
                                 </a>
                             </li>
 
-                            {/* <li>
-                                <a className="menu-hover-link" href={FaGithub} onClick={onMenuToggleClick}>
-                                    <span className="hover-item">
-                                        <span data-text="Contact">Contact</span>
-                                    </span>
-                                </a>
-                            </li> */}
                             
                             <li>
                                 <a className="menu-hover-link" href={resume} onClick={onMenuToggleClick}>
@@ -138,7 +131,7 @@ HeaderNoSidebar.propTypes = {
 }
 
 HeaderNoSidebar.defaultProps = {
-  siteTitle: ``,
+  siteTitle: `Maxwell Plumer Full Stack Developer Portfolio`,
 }
 
 export default HeaderNoSidebar;
