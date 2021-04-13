@@ -124,7 +124,7 @@ const HeaderNoSidebar = () => {
         </Fragment>
     )
 }
-// End Header Area 
+// End Header Area
 
 HeaderNoSidebar.propTypes = {
   siteTitle: PropTypes.string,
