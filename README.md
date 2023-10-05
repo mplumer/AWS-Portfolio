@@ -2,7 +2,7 @@
 
 ## Description
 
-My latest portfolio, showcasing skills learned post bootcamp graduation. Created with Gatsby and React, hosted on an AWS S3 bucket using Cloudfront with Lambda redirects.
+My recent portfolio, showcasing skills learned post bootcamp graduation. Created with Gatsby and React, hosted on an AWS S3 bucket using Cloudfront with Lambda redirects.
 
 ## Table of Contents
 
